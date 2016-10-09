@@ -1,0 +1,49 @@
+.author {
+  min-height: 615px;
+  background: url(../img/author-mobile-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  padding: 70px;
+
+  span {
+    display: block;
+    margin-top: 335px;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+
+  strong {
+    font-size: 72px;
+    font-weight: normal;
+    line-height: 90px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #d6d6d6;
+    width: 60%;
+  }
+
+  @media #{$desktop-width} {
+    padding-left: 58%;
+    background-image: url(../img/author-desktop-bg.jpg);
+
+    span {
+      font-size: 16px;
+      line-height: 22px;
+      margin-top: 210px;
+    }
+
+    strong {
+      font-size: 40px;
+      line-height: 60px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+}

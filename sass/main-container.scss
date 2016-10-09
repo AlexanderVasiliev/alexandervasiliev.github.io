@@ -1,0 +1,13 @@
+.main-container{
+  @include container;
+  background-color: $bg-dark;
+  padding-top: 1px;
+
+  @media #{$desktop-width} {
+    background-image: url(../img/scroller-bg2.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 65%;
+  }
+
+}

@@ -1,0 +1,26 @@
+/*body > * {
+  outline: 2px solid rgba(255, 0, 0, 0.7);
+}
+
+body > * > * {
+  outline: 2px solid rgba(0, 255, 0, 0.7);
+}
+*/
+/*Normalize*/
+@import "normalize.scss";
+
+/*Global styles*/
+@import "variables.scss";
+@import "global.scss";
+@import "mixins.scss";
+
+
+/*Blocks*/
+@import "main-header.scss";
+@import "main-container.scss";
+@import "card-scroller.scss";
+@import "second-header.scss";
+@import "news.scss";
+@import "features.scss";
+@import "author.scss";
+@import "main-footer.scss";
